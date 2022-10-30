@@ -14,7 +14,7 @@ const projectObj = [
     description: "Rani Durgawati Universiry Jabalpur ",
   },
   {
-    title: "Bachelor of Computer Sciences",
+    title: "Bachelor of Computer Science",
     time: "JUNE 2018",
     description: "Rani Durgawati Universiry Jabalpur",
   },
