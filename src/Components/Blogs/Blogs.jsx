@@ -4,18 +4,19 @@ import Styles from "./Project.module.css";
 
 const projectObj = [
   {
-    img: "https://tse4.mm.bing.net/th?id=OIP.XKOZJvbK4ZylnSh8raOdNAHaDr&pid=Api&P=0",
+    img: "https://vinitshahilverma.github.io/images/ezgif.com-gif-maker.gif",
     title: "interntheory.com",
     description:
       "An Ecommerce web application to Certified Online Courses Upgrade your skills with Intern Theory's online learning platform",
- 
+    blog: "https://medium.com/@meenakshisinghthakur4668/clone-of-an-intern-theory-website-d247bd1a2069",
   },
   {
-    img: "https://tse3.mm.bing.net/th?id=OIP.HxshjhLHZTe62JI-6443KwHaEU&pid=Api&P=0",
+    img: "https://d314ueg0lpx3nd.cloudfront.net/banner/7a2125e5fe2-Best-Buy-banner_1.gif",
     title: "PharmEasy.com",
     description:
       " An advanced pharmacy ecosystem with online clinic bookings, data collection.",
-  }
+    blog: "https://medium.com/@meenakshisinghthakur4668/clone-of-e-commerce-website-bd7092fec554",
+  },
 ];
 
 function Blogs() {
