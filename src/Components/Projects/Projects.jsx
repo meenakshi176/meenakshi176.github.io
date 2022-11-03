@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./Card";
 import Styles from "./Project.module.css";
-import pic1 from "../../Images/animoto.png";
 
 const projectObj = [
   {

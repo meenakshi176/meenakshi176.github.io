@@ -18,6 +18,10 @@ const contactObj = [
     socialMedia: <i className="fab fa-github"></i>,
     url: "https://github.com/meenakshi176",
   },
+  {
+    socialMedia: <i className="fab fa-github"></i>,
+    url: "https://medium.com/@meenakshisinghthakur4668",
+  },
 ];
 
 function Contact() {

@@ -2,7 +2,7 @@ import React from "react";
 import Styles from "./Header.module.css";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import Pic from "../../Resources/Icons/meenakshi.png";
+import Pic from "../../Resources/Icons/meenakshi.jpg";
 function Header() {
   const textRef = useRef();
   useEffect(() => {
