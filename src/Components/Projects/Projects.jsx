@@ -23,6 +23,16 @@ const projectObj = [
     github: "https://github.com/meenakshi176/Pharmacy_Clone",
     blog: " https://gleaming-haupia-a989a3.netlify.app/",
   },
+  {
+    img: "https://camo.githubusercontent.com/1694eb7bc5c3ae77b69dc3921882ce0663be7afc285d9b64a16fdc8dffcad8d7/687474703a2f2f342e62702e626c6f6773706f742e636f6d2f2d4b6f70393677425550356b2f56687a6236784f705957492f41414141414141414e4f4d2f6d724b674e7769383169632f73313630302f4c4943494f55532532424c4f474f2e6a7067",
+    title: "licious.in",
+    description:
+      "This is the clone website of Licious. it is an online Meat ordering website ",
+    tech: "Tech Stack :",
+    used: "HTML | CSS | JavaScript | React | Bootstrap| Chakra UI| Reuseable Components",
+    github: "https://github.com/anuragg0107/freezing-roll-5661",
+    blog: "https://licious-freezing.netlify.app/",
+  },
 ];
 
 function Projects() {

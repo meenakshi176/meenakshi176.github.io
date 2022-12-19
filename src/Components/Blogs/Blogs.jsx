@@ -17,6 +17,12 @@ const projectObj = [
       " An advanced pharmacy ecosystem with online clinic bookings, data collection.",
     blog: "https://medium.com/@meenakshisinghthakur4668/clone-of-e-commerce-website-bd7092fec554",
   },
+  {
+    img: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0b7ccd0f-0811-c38b-5420-0317c8006bda/original/Biryani_(2).png",
+    title: "licious.in",
+    description: " It is an online Meat ordering website .",
+    blog: "https://licious-freezing.netlify.app/",
+  },
 ];
 
 function Blogs() {

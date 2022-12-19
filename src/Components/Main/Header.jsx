@@ -3,7 +3,7 @@ import Styles from "./Header.module.css";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 import Pic from "../../Resources/Icons/meenakshi.jpg";
-function Header() {
+function Home() {
   const textRef = useRef();
   useEffect(() => {
     init(textRef.current, {
@@ -27,11 +27,10 @@ function Header() {
             Full Stack Web <span ref={textRef}></span>
           </p>
           <p>Email : meenakshisinghthakur4668@gmail.com</p>
-          <p>Phone : 9754144470</p>
         </div>
       </div>
     </div>
   );
 }
 
-export default Header;
+export default Home;

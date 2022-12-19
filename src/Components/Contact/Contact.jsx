@@ -3,10 +3,6 @@ import Styles from "./Contact.module.css";
 
 const contactObj = [
   {
-    socialMedia: <i className="fas fa-phone-alt"></i>,
-    url: "+91 9754144470",
-  },
-  {
     socialMedia: <i className="fas fa-envelope"></i>,
     url: "meenakshisinghthakur4668@gmail.com",
   },
