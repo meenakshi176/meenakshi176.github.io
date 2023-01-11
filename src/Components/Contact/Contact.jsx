@@ -22,21 +22,23 @@ const contactObj = [
 
 function Contact() {
   return (
-    <div className={`${Styles.Contact}`}>
-      <div>
-        <h1 className="heading">Contact</h1>
+    <section id="contact">
+      <div className={`${Styles.Contact}`}>
+        <div>
+          <h1 className="heading">Contact</h1>
+        </div>
+        <div className={Styles.ContactSectionDiv}>
+          {contactObj.map((item) => (
+            <a href={item.url} target="_blank">
+              <div className={Styles.ContactSection}>
+                <p>{item.socialMedia}</p>
+                <p>{item.url}</p>
+              </div>
+            </a>
+          ))}
+        </div>
       </div>
-      <div className={Styles.ContactSectionDiv}>
-        {contactObj.map((item) => (
-          <a href={item.url} target="_blank">
-            <div className={Styles.ContactSection}>
-              <p>{item.socialMedia}</p>
-              <p>{item.url}</p>
-            </div>
-          </a>
-        ))}
-      </div>
-    </div>
+    </section>
   );
 }
 
