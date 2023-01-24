@@ -11,17 +11,22 @@ const projectObj = [
     blog: "https://medium.com/@meenakshisinghthakur4668/clone-of-an-intern-theory-website-d247bd1a2069",
   },
   {
-    img: "https://d314ueg0lpx3nd.cloudfront.net/banner/7a2125e5fe2-Best-Buy-banner_1.gif",
+    img: "https://media.tenor.com/vDW9xiS1ocoAAAAM/ipl-cricket.gif",
     title: "PharmEasy.com",
     description:
       " An advanced pharmacy ecosystem with online clinic bookings, data collection.",
     blog: "https://medium.com/@meenakshisinghthakur4668/clone-of-e-commerce-website-bd7092fec554",
   },
   {
-    img: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/0b7ccd0f-0811-c38b-5420-0317c8006bda/original/Biryani_(2).png",
+    img: "https://media2.giphy.com/media/gw3L0iiH6rZgC38k/200w.webp?cid=ecf05e4793mdwx04rdqwztgthd3zqhzvllr9yxce0z8u0r4b&rid=200w.webp&ct=g",
     title: "licious.in",
     description: " It is an online Meat ordering website .",
-    blog: "https://licious-freezing.netlify.app/",
+  },
+  {
+    img: "https://d314ueg0lpx3nd.cloudfront.net/banner/7a2125e5fe2-Best-Buy-banner_1.gif",
+    title: "5mg.in",
+    description:
+      "This is the clone website of 1mg. it is an online Medicine & healthcare products ordering website ",
   },
 ];
 

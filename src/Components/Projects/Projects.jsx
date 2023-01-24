@@ -33,6 +33,16 @@ const projectObj = [
     github: "https://github.com/anuragg0107/freezing-roll-5661",
     blog: "https://licious-freezing.netlify.app/",
   },
+  {
+    img: "https://camo.githubusercontent.com/8ae4d8a769f2665f95d8d5830e204e20e45c3f99de03169532e5d5b7928fa3aa/68747470733a2f2f692e706f7374696d672e63632f42363936796e39432f356d676c6f676f2d72656d6f766562672d707265766965772e706e67",
+    title: "5mg.in",
+    description:
+      "This is the clone website of 1mg. it is an online Medicine & healthcare products ordering website ",
+    tech: "Tech Stack :",
+    used: "HTML | CSS | JavaScript | React | Bootstrap| Chakra UI| Reuseable Components | Express | MongoDB | Nodejs",
+    github: "https://github.com/Ghanishtkhurana/brief-toes-9591",
+    blog: "https://frontend-meenakshi176.vercel.app/",
+  },
 ];
 
 function Projects() {
@@ -44,14 +54,12 @@ function Projects() {
         </div>
         <div className={Styles.Project__showcase}>
           {projectObj.map((proj) => (
-            // <a href={proj.github} target="_blank">
             <Card
               key={proj.title}
               {...proj}
               tech={proj.tech}
               used={proj.used}
             />
-            // </a>
           ))}
         </div>
       </div>

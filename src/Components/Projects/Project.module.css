@@ -1,22 +1,19 @@
-.Project h1{
-    margin: 100px 0px;
-
+.Project h1 {
+  margin: 100px 0px;
 }
 @media (max-width: 600px) {
-    .Project{
-        /* border: 1px solid black; */
-        max-width: 80% !important;
-        /* justify-content: center; */
-    }
+  .Project {
+    max-width: 80% !important;
+  }
 }
-.Project a{
-    text-decoration: none;
-    cursor: pointer;
+.Project a {
+  text-decoration: none;
+  cursor: pointer;
 }
-.Project__showcase{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-    flex-wrap: wrap;
+.Project__showcase {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
 }

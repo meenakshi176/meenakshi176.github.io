@@ -125,7 +125,7 @@ const TopNavbar = ({ inView }) => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/uc?id=1ajooLBrxM4mx5S2A5cYBA5cFkZPXkwko&export=download"
+              href="https://drive.google.com/u/0/uc?id=1HiBZzGmgGzBwNDXdJo9xDj3jjK8Nshqr&export=download"
               style={{ color: "#F88119" }}
             >
               Resume
