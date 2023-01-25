@@ -52,7 +52,7 @@ export default class Statistics extends Component {
                   // padding:"15px",borderRadius:"15%"}}
                 >
                   <div>
-                    <h4>3+</h4>
+                    <h4>4+</h4>
                   </div>
                   <div>
                     <h3>Projects</h3> <h4>Done</h4>

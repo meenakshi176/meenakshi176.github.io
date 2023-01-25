@@ -12,10 +12,6 @@ import redux from "../../Resources/Icons/redux.svg";
 import node from "../../Resources/Icons/node.svg";
 import express from "../../Resources/Icons/express.svg";
 import mongodb from "../../Resources/Icons/mongodb.svg";
-import redis from "../../Resources/Icons/redis.svg";
-import git from "../../Resources/Icons/git.svg";
-import heroku from "../../Resources/Icons/heroku.svg";
-// import mysql from "../../Resources/Icons/mysql.svg";
 
 const frontEndIcons = [
   { icon: html, caption: "HTML" },
@@ -27,10 +23,6 @@ const frontEndIcons = [
   { icon: node, caption: "Node" },
   { icon: express, caption: "Express" },
   { icon: mongodb, caption: "MongoDB" },
-  // { icon: mysql, caption: "MySQL" },
-  // { icon: redis, caption: "Redis" },
-  // { icon: git, caption: "Git" },
-  { icon: heroku, caption: "Heroku" },
 ];
 
 function Skills() {

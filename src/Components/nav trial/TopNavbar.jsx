@@ -10,33 +10,8 @@ const TopNavbar = ({ inView }) => {
 
   const [showNav, setShowNav] = useState(() => null);
 
-  useEffect(() => {
-    let lastScrollPosition = 0;
-    setShowNav(true);
-    document.addEventListener(
-      "scroll",
-      function (e) {
-        if (window.scrollY > lastScrollPosition) {
-          setShowNav(false);
-        } else {
-          setShowNav(true);
-        }
-        lastScrollPosition = window.scrollY;
-      },
-      {
-        passive: true,
-      }
-    );
-  }, []);
-
   return (
-    <nav
-      style={{
-        opacity: showNav ? 1 : 0,
-        top: showNav ? 0 : "-100px",
-      }}
-      className="TopNavBar "
-    >
+    <nav className="TopNavBar ">
       <ul className="TopNavBar-links">
         <input type="checkbox" id="checkbox_toggle" />
         <label htmlFor="checkbox_toggle" className="hamburger">
@@ -123,7 +98,13 @@ const TopNavbar = ({ inView }) => {
               Contact
             </a>
           </li>
-          <li>
+          <li
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/u/0/uc?id=1HiBZzGmgGzBwNDXdJo9xDj3jjK8Nshqr&export=download/view"
+              )
+            }
+          >
             <a
               href="https://drive.google.com/u/0/uc?id=1HiBZzGmgGzBwNDXdJo9xDj3jjK8Nshqr&export=download"
               style={{ color: "#F88119" }}
