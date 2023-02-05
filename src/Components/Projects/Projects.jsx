@@ -21,7 +21,7 @@ const projectObj = [
     tech: "Tech Stack :",
     used: "HTML | CSS | JavaScript | React | Bootstrap| Chakra UI| Reuseable Components",
     github: "https://github.com/anuragg0107/freezing-roll-5661",
-    blog: "https://licious-freezing.netlify.app/",
+    blog: "https://licious-clone-nine.vercel.app/",
   },
   {
     img: "https://tse3.mm.bing.net/th?id=OIP.HxshjhLHZTe62JI-6443KwHaEU&pid=Api&P=0",

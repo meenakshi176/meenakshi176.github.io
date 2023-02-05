@@ -101,12 +101,12 @@ const TopNavbar = ({ inView }) => {
           <li
             onClick={() =>
               window.open(
-                "https://drive.google.com/u/0/uc?id=1HiBZzGmgGzBwNDXdJo9xDj3jjK8Nshqr&export=download/view"
+                "https://drive.google.com/drive/folders/1MUX15I0uKRXcv1jb_r7OSQ9Ty3oUGguV?usp=sharing"
               )
             }
           >
             <a
-              href="https://drive.google.com/u/0/uc?id=1HiBZzGmgGzBwNDXdJo9xDj3jjK8Nshqr&export=download"
+              href="https://drive.google.com/uc?id=1PcIVv7UnTchVx_yy6IUV8iczZwR1d5yB&export=download"
               style={{ color: "#F88119" }}
             >
               Resume
