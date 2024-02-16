@@ -24,7 +24,7 @@ function Home() {
           <h1>Hi I'm</h1>
           <h1>MEENAKSHI SINGH THAKUR</h1>
           <p>
-            Full Stack Web <span ref={textRef}></span>
+            Front End Web <span ref={textRef}></span>
           </p>
           <p>Email : meenakshisinghthakur4668@gmail.com</p>
         </div>

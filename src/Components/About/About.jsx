@@ -11,7 +11,7 @@ function AboutMe() {
         <div className={Styles.About__content}>
           <p>
             {" "}
-            Observant and innovative aspiring full-stack developer with
+            Observant and innovative aspiring front-end web developer with
             specialization in MERN stack. Passionate about learning newthings. A
             Collaborative team player who is excited about building user-centric
             products.

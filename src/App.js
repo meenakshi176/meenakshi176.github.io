@@ -12,6 +12,7 @@ import "./App.css";
 
 import { Link, Element } from "react-scroll";
 import Blogs from "./Components/Blogs/Blogs";
+import Experience from "./Components/Experience/Experience";
 
 const router = [
   {
@@ -25,6 +26,10 @@ const router = [
   {
     to: "education",
     component: <Education />,
+  },
+  {
+    to: "experience",
+    component: <Experience />,
   },
   {
     to: "skills",
